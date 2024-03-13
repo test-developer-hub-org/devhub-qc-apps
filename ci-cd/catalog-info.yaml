@@ -10,6 +10,7 @@ metadata:
     backstage.io/kubernetes-namespace: myapps
     backstage.io/kubernetes-label-selector: 'app=mypipeline'
     janus-idp.io/tekton : mypipeline
+    janus-idp.io/tekton-enabled : 'true'
 spec:
   type: pipeline
   system: myapp
